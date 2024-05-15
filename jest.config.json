@@ -1,0 +1,9 @@
+{
+  "setupFiles": ["./config/testSetup.js"],
+  "setupFilesAfterEnv": [],
+  "transformIgnorePatterns": [
+    "node_modules/(?!(got|@sindresorhus|p-cancelable|@szmarczak|cacheable-request|normalize-url|responselike|lowercase-keys|mimic-response|get-stream|cacheable-lookup)/)"
+  ],
+  "moduleNameMapper": {
+  }
+}
