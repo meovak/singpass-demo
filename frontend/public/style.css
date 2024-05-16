@@ -1,0 +1,19 @@
+main {
+  padding: 0 1rem;
+}
+button {
+  font-size: 1.3em;
+  padding: 0.2em 1em;
+  margin: 0.5em 0;
+}
+@media screen and (min-width: 768px) {
+  main {
+    margin: auto;
+    max-width: 50em;
+  }
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
